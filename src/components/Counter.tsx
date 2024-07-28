@@ -1,4 +1,3 @@
-import React from "react";
 import { useAppSelector } from "../redux/hooks";
 import { useDispatch } from "react-redux";
 import { decremented, incremented, set } from "../redux/slices/counter";
